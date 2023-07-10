@@ -8,7 +8,6 @@ version = "0.1.0"
 description = ""
 authors = ["B. J. Potter <bj.ctr.potter@faa.gov>"]
 readme = "README.md"
-packages = [{include = "scipy_vscode_tutorial"}]
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
