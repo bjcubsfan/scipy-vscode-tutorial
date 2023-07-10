@@ -18,6 +18,10 @@ numpy = "^1.25.1"
 emoji = "^2.6.0"
 myst-nb = "^0.17.2"
 jupyter-book = "^0.15.1"
+pandas = "^2.0.3"
+arrow = "^1.2.3"
+regex = "^2023.6.3"
+pyarrow = "^12.0.1"
 
 
 [build-system]
