@@ -2,3 +2,25 @@
 name = "tutorial"
 description = "SciPy 2023 VS Code tutorial"
 version = "0.1.0"
+[tool.poetry]
+name = "scipy-vscode-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["B. J. Potter <bj.ctr.potter@faa.gov>"]
+readme = "README.md"
+packages = [{include = "scipy_vscode_tutorial"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+ipykernel = "^6.24.0"
+pytest = "^7.4.0"
+matplotlib = "^3.7.2"
+numpy = "^1.25.1"
+emoji = "^2.6.0"
+myst-nb = "^0.17.2"
+jupyter-book = "^0.15.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
